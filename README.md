@@ -1,3 +1,7 @@
+# problem
+
+when i use the model it shows the picture without any detections i tried using yolov8m normal model and it shows stuff so the problem is with training probably
+
 # setup
 
 ```
