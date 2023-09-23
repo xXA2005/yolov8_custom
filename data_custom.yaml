@@ -1,0 +1,9 @@
+names:
+  0: not an animal
+  1: treasure
+  2: something that can be eaten
+
+nc: 3
+
+train: C:\Users\ASUS\yolov8_custom\train
+val: C:\Users\ASUS\yolov8_custom\val
