@@ -1,7 +1,3 @@
-# problem
-
-when i use the model it shows the picture without any detections i tried using yolov8m normal model and it shows stuff so the problem is with training probably
-
 # setup
 
 ```
@@ -11,7 +7,7 @@ pip install ultralytics
 pip install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 ```
 
-# tart training
+# start training
 
 ```
 yolo task=detect mode=train model=yolov8m.pt data=data_custom.yaml epochs=30 imgsz=640 batch=8
@@ -30,12 +26,3 @@ yolo task=detect mode=predict model=runs/detect/train/weights/best.pt show=True 
 - delete `yolov8n.pt` file
 - delete `train/labels.cache` file
 - delete `val/labels.cache` file
-
-# version info
-
-- conda 23.7.2
-- ultralytics 8.0.184
-- pip 23.2.1
-- python 3.9
-- cuda 11.7
-- pytorch 2.0.1
